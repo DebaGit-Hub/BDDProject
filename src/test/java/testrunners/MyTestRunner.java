@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = {"src/test/resources/AppFeatures"},
+		features = {"/Users/Admin/eclipse-workspace/BDDFramework/src/test/resources/parallel/AccountsPage.feature"},
 		glue = {"stepdefinitions", "AppHooks"},
 		plugin = {"pretty",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
